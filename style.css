@@ -37,11 +37,14 @@ body {
 
 .photo {
     position: relative;
-    overflow: hidden;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
     animation-delay: var(--delay);
     transition: transform 0.3s ease;
+}
+
+.photo .img-wrapper {
+    overflow: hidden;
 }
 
 .photo:hover {
