@@ -162,12 +162,12 @@ body {
     margin-top: 60px;
     padding: 20px;
     visibility: hidden;
-    animation: showEmbed 0s 1s forwards;
+    animation: showEmbed 0s 1.5s forwards;
 }
 
 .instagram-embed-container .instagram-media {
     opacity: 0;
-    animation: fadeIn 0.8s ease-out 1s forwards;
+    animation: fadeIn 0.8s ease-out 1.5s forwards;
 }
 
 @keyframes showEmbed {
