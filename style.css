@@ -165,12 +165,7 @@ body {
 
 .instagram-embed-container .instagram-media {
     opacity: 0;
-    animation: fadeIn 0.8s ease-out 0.3s forwards;
-    border: 1px solid #333 !important;
-    border-radius: 0 !important;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05) !important;
-    background: #0a0a0a !important;
-    padding: 20px !important;
+    animation: fadeIn 0.8s ease-out 1s forwards;
 }
 
 @media (max-width: 768px) {
