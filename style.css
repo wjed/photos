@@ -161,11 +161,19 @@ body {
     justify-content: center;
     margin-top: 60px;
     padding: 20px;
+    visibility: hidden;
+    animation: showEmbed 0s 2s forwards;
 }
 
 .instagram-embed-container .instagram-media {
     opacity: 0;
-    animation: fadeIn 0.8s ease-out 1s forwards;
+    animation: fadeIn 0.8s ease-out 2s forwards;
+}
+
+@keyframes showEmbed {
+    to {
+        visibility: visible;
+    }
 }
 
 @media (max-width: 768px) {
